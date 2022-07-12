@@ -2,6 +2,7 @@
 
 body {
     background-color: #0d0d0d;
+    padding-bottom: 50px;
 }
 
 .header_logo {
@@ -33,7 +34,7 @@ body {
     font-size: 38px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .header_infos p {
@@ -41,11 +42,13 @@ body {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     max-width: 72%;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 main {
-    padding-left: 100px;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row;
 }
 
 .main_nav {
@@ -58,7 +61,7 @@ main {
 
 .main_nav h3 {
     color: #ffffff;
-    font-size: 18pt;
+    font-size: 24px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -76,13 +79,24 @@ main {
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: 155px;
+    width: 165px;
     border: 2px solid #ffffff;
     border-radius: 50px;
 }
 
+.main_nav ul li:hover {
+    background-color: #ffffff;
+    color: #0d0d0d;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main_nav ul li:active {
+    background-color: #e5e5e5;
+}
+
 .main_section {
-    width: 55%;
+    width: 95%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -111,6 +125,7 @@ main {
 
 .main_section h2 {
     font-size: 24px;
+    font-weight:600;
 }
 
 .main_card_top span {
@@ -128,16 +143,100 @@ main {
 }
 
 .main_card_bottom p {
-    font-size: 18px;
+    font-size: 16px;
     max-width: 70%;
     margin-bottom: 30px;
 }
 
 .main_card_bottom span {
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.main_card_bottom span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main_left {
+    width: 60%;
+}
+
+.main_playlist {
+    height:400px;
+    width: 30%;
+}
+.main_playlist h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
     margin-bottom: 30px;
 }
-aside {
+
+.main_playlist li {
     display: flex;
     flex-direction: row;
+    height: 120px;
+}
+
+.playlist_li img {
+    height: 90%;
+    width: auto;
+    margin-right: 10px;
+}
+
+.playlist_li_center {
+    width: 50%;
+}
+
+.playlist_li_center div span {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.playlist_li_playbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.playlist_li_playbutton img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.playlist_li_playbutton img:hover {
+    cursor: pointer;
+}
+
+.playlist_li_end {
+    width: 10%;
+    height: 100%;
+    display: flex;
+}
+
+.playlist_li_end button {
+    height: 100px;
+    width: 20px;
+    background-color: transparent;
+    background-image: url("../img/trash-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.playlist_li_end button:hover {
+    cursor: pointer;
+}
+
+.playlist_li_center div h4 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
 }
