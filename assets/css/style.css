@@ -79,7 +79,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: 165px;
+    width: 160px;
     border: 2px solid #ffffff;
     border-radius: 50px;
 }
@@ -148,13 +148,16 @@ main {
     margin-bottom: 30px;
 }
 
-.main_card_bottom span {
+.main_card_bottom button {
     font-size: 16px;
     margin-bottom: 30px;
     margin-left: 50px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
 }
 
-.main_card_bottom span:hover {
+.main_card_bottom button:hover {
     text-decoration: underline;
     cursor: pointer;
 }
