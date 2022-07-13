@@ -4,7 +4,7 @@ let temporadas = [
         nome: "Maratona Invertida",
         sinopse: "Aprenda a programar gratuitamente e construa seu projeto próprio e totalmente de graça!",
         imagemURL: "./src/assetsimg/imagemCard.png",
-        imagemIcone: "./src/assets/img/imagemIcone.png",
+        imagemIcone: "../assets/img/imagemIcone.png",
         temporada: "Temporada 3"
     },
     {
@@ -12,7 +12,7 @@ let temporadas = [
         nome: "Maratona Invertida",
         sinopse: "Aprenda a programar gratuitamente e construa seu projeto próprio e totalmente de graça!",
         imagemURL: "./src/assetsimg/imagemCard.png",
-        imagemIcone: "./src/assets/img/imagemIcone.png",
+        imagemIcone: "../assets/img/imagemIcone.png",
         temporada: "Temporada 2"
     },
     {
@@ -20,7 +20,7 @@ let temporadas = [
         nome: "Maratona Invertida",
         sinopse: "Aprenda a programar gratuitamente e construa seu projeto próprio e totalmente de graça!",
         imagemURL: "./src/assetsimg/imagemCard.png",
-        imagemIcone: "./src/assets/img/imagemIcone.png",
+        imagemIcone: "../assets/img/imagemIcone.png",
         temporada: "Temporada 1"
     },
 ]   
